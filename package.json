@@ -7,7 +7,13 @@
     "test": "mocha --recursive"
   },
   "dependencies": {
-    "express": "~4.11.1"
+    "diskdb": "^0.1.17",
+    "express": "~4.11.1",
+    "express-session": "^1.15.1",
+    "joi": "^10.2.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-session": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
